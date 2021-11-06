@@ -12,25 +12,27 @@
     <link rel="stylesheet" href="media.css">
 </head>
 <body>
-<div class="header col-12">
-    <div class="container d-flex justify-content-between">
-        <div class="left_bar d-flex justify-content-between align-items-center col-lg-4 col-6">
-            <div class="mob_more"><img class="place_img" src="img/placeholder.png" alt="...">Ваш город: Москва</div>
-            <div class="mob_more">Еще <img src="img/Chevron.png" alt="..."></div>
-            <div class="mob_none">Информация <img src="img/Chevron.png" alt="..."></div>
-            <div class="mob_none">Сотрудничество <img src="img/Chevron.png" alt="..."></div>
-        </div>
-        <div class="right_bar d-flex justify-content-between align-items-center col-lg-5">
-            <div>Доставка</div>
-            <div>Оплата</div>
-            <div>Гарантия</div>
-            <div>Новости</div>
-            <div>Журнал</div>
-            <div>О магазине</div>
-            <div>Контакты</div>
+
+    <div class="header col-12">
+        <div class="container d-flex justify-content-between">
+            <div class="left_bar d-flex justify-content-between align-items-center col-lg-4 col-6">
+                <div class="mob_more"><img class="place_img" src="img/placeholder.png" alt="...">Ваш город: Москва</div>
+                <div class="mob_more">Еще <img src="img/Chevron.png" alt="..."></div>
+                <div class="mob_none">Информация <img src="img/Chevron.png" alt="..."></div>
+                <div class="mob_none">Сотрудничество <img src="img/Chevron.png" alt="..."></div>
+            </div>
+            <div class="right_bar d-flex justify-content-between align-items-center col-lg-5">
+                <div>Доставка</div>
+                <div>Оплата</div>
+                <div>Гарантия</div>
+                <div>Новости</div>
+                <div>Журнал</div>
+                <div>О магазине</div>
+                <div>Контакты</div>
+            </div>
         </div>
     </div>
-</div>
+
 <div class="container">
     <div class="bottom_bar_mob col-12 d-flex justify-content-between">
         <div class="img_bar_mob">
@@ -91,7 +93,7 @@
             </div>
         </div>
     </div>
-    <div class="info_bar_mob d-flex row justify-content-around">
+    <div class="info_bar_mob d-flex row justify-content-around align-items-end">
         <div class="col-5 d-flex flex-row justify-content-between align-items-center">
             <div class="col-4 logo_mob">
                 <img src="img/Untitled-2.jpg" alt="...">
@@ -117,8 +119,8 @@
     </div>
 
     <div class="search_bar col-lg-12 d-flex flex-row justify-content-between">
-        <div class="col-lg-7 d-flex justify-content-between align-items-center">
-            <div class="catalog_btn d-flex flex-row justify-content-around align-items-center col-lg-2">
+        <div class="col-lg-7 col-12 d-flex justify-content-between align-items-center search_bar_mob">
+            <div class="catalog_btn d-flex flex-row justify-content-around align-items-center col-lg-2 col-2">
                 <div class="burger_menu d-flex flex-column justify-content-between">
                     <div></div>
                     <div></div>
@@ -126,12 +128,12 @@
                 </div>
                 <div class="catalog_btn_title">Каталог</div>
             </div>
-            <div class="search_form col-lg-9 d-flex flex-row">
+            <div class="search_form col-lg-9 col-19 d-flex flex-row">
                 <input type="text" class="form-control" placeholder="Поиск по наименованию или артикулу">
                 <button type="button" class="btn btn-primary btn-primary1">Найти</button>
             </div>
         </div>
-        <div class="col-lg-4 d-flex flex-row justify-content-end align-items-center">
+        <div class="col-lg-4 d-flex flex-row justify-content-end align-items-center btn_none_mob">
             <div class="d-flex flex-row justify-content-between align-items-center user_btn col-lg-4">
                 <div>
                     <img src="img/user.png" alt="...">
@@ -159,7 +161,7 @@
         </div>
     </div>
     <div class="main_start_bar d-flex flex-row justify-content-between align-items-center">
-        <div class="col-lg-9">
+        <div class="col-lg-9 col-12">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -187,8 +189,8 @@
                 </button>
             </div>
         </div>
-        <div class="main_start_right col-lg-3 d-flex flex-column justify-content-between">
-            <div class=" d-flex flex-row justify-content-between">
+        <div class="main_start_right col-lg-3 col-12 d-flex flex-column justify-content-between">
+            <div class="main_start_right_mob d-flex flex-row justify-content-between col-5">
                 <div class="main_start_left_section col-lg-4 d-flex flex-column align-items-center justify-content-around">
                     <h5>Акция</h5>
                     <img src="img/avt-zap_main_page_v01.png" alt="...">
@@ -197,7 +199,7 @@
                     <h5>Обгонная муфта <br>
                         гидротрансформатор</h5>
                     <p>BW-SP-2 SONNAX</p>
-                    <div class="d-flex flex-row">
+                    <div class="d-flex flex-row price_mob_edit">
                         <div class="price d-flex flex-row justify-content-around align-items-end">
                             <div><h2>4 430₽</h2></div>
                             <div><h3>5 430₽</h3></div>
@@ -208,7 +210,7 @@
                     </div>
                 </div>
             </div>
-            <div class=" d-flex flex-row justify-content-between">
+            <div class="main_start_right_mob d-flex flex-row justify-content-between col-5">
                 <div class="main_start_left_section col-lg-4 d-flex flex-column align-items-center justify-content-around">
                     <h5>Акция</h5>
                     <img src="img/avt-zap_main_page_v02.png" alt="...">
@@ -217,7 +219,7 @@
                     <h5>Комплект фрикционных <br>
                         дисков</h5>
                     <p>BW-SP-2 SONNAX</p>
-                    <div class="d-flex flex-row">
+                    <div class="d-flex flex-row price_mob_edit">
                         <div class="price d-flex flex-row justify-content-around align-items-end">
                             <div><h2>4 430₽</h2></div>
                             <div><h3>5 430₽</h3></div>
@@ -230,12 +232,13 @@
             </div>
         </div>
     </div>
-    <div class="main_slider ">
+
+    <div class="main_slider">
         <div id="multi-item-example " class="carousel slide carousel-multi-item" data-ride="carousel">
             <div class="carousel-inner carousel-inner-edit" role="listbox">
                 <div class="carousel-item active ">
-                    <div class="row d-flex flex-wrap">
-                        <div class="col-md-4 col-lg-4">
+                    <div class="row d-flex flex-nowrap">
+                        <div class="col-md-4 col-lg-4 col-5">
                             <div class="card mb-2">
                                 <div class="card-body d-flex flex-row justify-content-between">
                                     <div class="card_body_title">
@@ -250,7 +253,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 col-lg-4">
+                        <div class="col-md-4 col-lg-4 col-5">
                             <div class="card mb-2">
                                 <div class="card-body d-flex flex-row justify-content-between">
                                     <div class="card_body_title">
@@ -265,7 +268,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 col-lg-4">
+                        <div class="col-md-4 col-lg-4 col-5">
                             <div class="card mb-2">
                                 <div class="card-body d-flex flex-row justify-content-between">
                                     <div class="card_body_title">
@@ -281,19 +284,15 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-
-                <button class="carousel-control-prev d-flex justify-content-start">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                </button>
-                <button class="carousel-control-next d-flex justify-content-end">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                </button>
             </div>
+            <button class="carousel-control-prev d-flex justify-content-start">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next d-flex justify-content-end">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
         </div>
-
-
     </div>
     <div class="sort_by col-lg-4 d-flex flex-row justify-content-between align-items-end">
             <button type="button" class="btn btn-outline-primary">Подборки товаров</button>
@@ -302,7 +301,7 @@
     </div>
     <div class="main_product d-flex flex-wrap">
         <div class="main_product_bar d-flex flex-column justify-content-center col-lg-3">
-            <div>
+            <div class="product_img_mob">
                 <img src="img/product_bar_1.png" alt="...">
             </div>
             <div class="d-flex flex-row col-lg-5 justify-content-around align-items-baseline main_product_rate">
@@ -325,11 +324,11 @@
                     В корзину
                 </button>
                 <img src="img/product_fav.png" alt="...">
-                <img src="img/product_bar_stat.png" alt="...">
+                <img class="btn_mob_non" src="img/product_bar_stat.png" alt="...">
             </div>
         </div>
         <div class="main_product_bar d-flex flex-column justify-content-center col-lg-3">
-            <div>
+            <div class="product_img_mob">
                 <img src="img/avt-zap_main_page_v03.png" alt="...">
             </div>
             <div class="d-flex flex-row col-lg-5 justify-content-around align-items-baseline main_product_rate">
@@ -352,11 +351,11 @@
                     В корзину
                 </button>
                 <img src="img/product_fav.png" alt="...">
-                <img src="img/product_bar_stat.png" alt="...">
+                <img class="btn_mob_non" src="img/product_bar_stat.png" alt="...">
             </div>
         </div>
         <div class="main_product_bar d-flex flex-column justify-content-center col-lg-3">
-            <div>
+            <div class="product_img_mob">
                 <img src="img/product_bar_1.png" alt="...">
             </div>
             <div class="d-flex flex-row col-lg-5 justify-content-around align-items-baseline main_product_rate">
@@ -379,11 +378,11 @@
                     В корзину
                 </button>
                 <img src="img/product_fav.png" alt="...">
-                <img src="img/product_bar_stat.png" alt="...">
+                <img class="btn_mob_non" src="img/product_bar_stat.png" alt="...">
             </div>
         </div>
         <div class="main_product_bar d-flex flex-column justify-content-center col-lg-3">
-            <div>
+            <div class="product_img_mob">
                 <img src="img/avt-zap_main_page_v04.png" alt="...">
             </div>
             <div class="d-flex flex-row col-lg-5 justify-content-around align-items-baseline main_product_rate">
@@ -406,12 +405,12 @@
                     В корзину
                 </button>
                 <img src="img/product_fav.png" alt="...">
-                <img src="img/product_bar_stat.png" alt="...">
+                <img class="btn_mob_non" src="img/product_bar_stat.png" alt="...">
             </div>
         </div>
         <div class="line col-lg-12"></div>
         <div class="main_product_bar d-flex flex-column justify-content-start col-lg-3">
-            <div>
+            <div class="product_img_mob">
                 <img src="img/product_bar_1.png" alt="...">
             </div>
             <div class="d-flex flex-row col-lg-5 justify-content-around align-items-baseline main_product_rate">
@@ -434,11 +433,11 @@
                     В корзину
                 </button>
                 <img src="img/product_fav.png" alt="...">
-                <img src="img/product_bar_stat.png" alt="...">
+                <img class="btn_mob_non" src="img/product_bar_stat.png" alt="...">
             </div>
         </div>
         <div class="main_product_bar d-flex flex-column justify-content-start col-lg-3">
-            <div>
+            <div class="product_img_mob">
                 <img src="img/avt-zap_main_page_v03.png" alt="...">
             </div>
             <div class="d-flex flex-row col-lg-5 justify-content-around align-items-baseline main_product_rate">
@@ -461,11 +460,11 @@
                     В корзину
                 </button>
                 <img src="img/product_fav.png" alt="...">
-                <img src="img/product_bar_stat.png" alt="...">
+                <img class="btn_mob_non" src="img/product_bar_stat.png" alt="...">
             </div>
         </div>
         <div class="main_product_bar d-flex flex-column justify-content-start col-lg-3">
-            <div>
+            <div class="product_img_mob">
                 <img src="img/product_bar_1.png" alt="...">
             </div>
             <div class="d-flex flex-row col-lg-5 justify-content-around align-items-baseline main_product_rate">
@@ -488,11 +487,11 @@
                     В корзину
                 </button>
                 <img src="img/product_fav.png" alt="...">
-                <img src="img/product_bar_stat.png" alt="...">
+                <img class="btn_mob_non" src="img/product_bar_stat.png" alt="...">
             </div>
         </div>
         <div class="main_product_bar d-flex flex-column justify-content-start col-lg-3">
-            <div>
+            <div class="product_img_mob">
                 <img src="img/avt-zap_main_page_v04.png" alt="...">
             </div>
             <div class="d-flex flex-row col-lg-5 justify-content-around align-items-baseline main_product_rate">
@@ -515,7 +514,7 @@
                     В корзину
                 </button>
                 <img src="img/product_fav.png" alt="...">
-                <img src="img/product_bar_stat.png" alt="...">
+                <img class="btn_mob_non" src="img/product_bar_stat.png" alt="...">
             </div>
         </div>
     </div>
@@ -646,7 +645,7 @@
 
 </div>
 <div class="footer">
-    <div class="container d-flex flex-row justify-content-between">
+    <div class="container d-flex flex-row justify-content-between footer_mob">
         <div class="col-lg-2 d-flex flex-column justify-content-between footer_col_size1">
             <a href="#" class="col_title">КАТАЛОГ</a>
             <a href="#" class="col_text">Каталог запчастей</a>
@@ -682,7 +681,7 @@
                 <img src="img/mastercard.png" alt="...">
             </div>
         </div>
-        <div class="col-lg-4 d-flex flex-column justify-content-between">
+        <div class="col-lg-4 d-flex flex-column justify-content-between footer_form_mob">
             <div class="col-lg-12 d-flex flex-row justify-content-between">
                 <div class="col-lg-5 d-flex flex-column justify-content-between footer_col_size3">
                     <a href="#" class="col_title">КОНТАКТЫ</a>
@@ -705,10 +704,23 @@
                 <a href="#" class="col_title col_title_edit">Подпишитесь на нашу расслыку и <br>
                     вы первыми узнаете о скидках и акциях</a>
             </div>
-            <div class="col-lg-12 d-flex flex-row">
+            <div class="col-lg-12 col-9 d-flex flex-row">
                 <input type="text" class="form-control search_dark" placeholder="Введите ваш email">
                 <button type="button" class="btn btn-primary btn-primary1">Подписаться</button>
             </div>
+        </div>
+        <div class="only_mob_bar d-flex flex-column">
+            <div class="col-7 d-flex justify-content-between align-items-center">
+                <img src="img/facebook.png" alt="">
+                <img src="img/telegram.png" alt="">
+                <img src="img/twitter.png" alt="">
+                <img src="img/google-plus.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="copyright d-flex ">
+        <div class="footer_mob d-flex flex-column justify-content-center">
+            <span>2017 © ООО «АВТ-ЗАП» - запчасти для акпп</span>
         </div>
     </div>
 </div>

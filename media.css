@@ -1,11 +1,14 @@
+/*iphoneX_375*/
 @media screen and (max-width:380px){
     .header{
         width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
     }
     .main_product{
         height: 100%;
     }
-
 
     .news_bar{
         flex-wrap: wrap !important;
@@ -93,5 +96,259 @@
         color: #0F2438;
         opacity: 0.7;
         margin: 0;
+    }
+    .catalog_btn_title{
+        display: none;
+    }
+    .search_bar_mob{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly !important;
+    }
+    .btn_none_mob{
+        display: none !important;
+    }
+    .search_form > input[placeholder]{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        display: flex;
+        align-items: center;
+        color: #C2C5DA;
+        border: 1px solid #000000;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .main_start_bar{
+        flex-wrap: wrap;
+        height: 350px;
+    }
+    .carousel-indicators{
+        margin-bottom: 0;
+    }
+    .carousel-control-next,
+    .carousel-control-prev{
+        visibility: hidden;
+    }
+    .main_start_right{
+        flex-direction: row !important;
+        overflow: hidden;
+        column-gap: 10px;
+        margin-top: 10px;
+        height: 200px;
+    }
+    .main_start_right > div{
+        margin-left: 0;
+
+    }
+    .main_slider{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
+    .container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .footer{
+        overflow: hidden;
+    }
+
+    .card-body > div > img{
+        height: 97px;
+        width: 79px;
+    }
+    .card_body_title > a{
+        width: 78px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        vertical-align: center;
+    }
+    .card_body_title{
+        width: 160px;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .card-body{
+        align-items: center !important;
+        justify-content: space-around !important;
+        height: 130px;
+    }
+    .main_start_right_mob{
+        justify-content: space-evenly !important;
+        height: 145px;
+    }
+    .price_btn_cart{
+        height: 32px;
+        width: 32px;
+    }
+    .main_start_right_section > h5{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .main_start_right_section > p{
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .main_start_left_section {
+        height: 70%;
+    }
+    .main_start_right_section{
+        width: 150px;
+    }
+
+    .price > div > h2{
+        font-size: 14px;
+        line-height: 16px;
+        width: 46px;
+    }
+    .price > div > h3{
+        font-size: 12px;
+        line-height: 14px;
+        width: 39px;
+    }
+    .price{
+        width: 100px;
+    }
+    .price_mob_edit{
+        justify-content: space-between !important;
+    }
+    .sort_by{
+        width: 440px;
+        overflow: hidden;
+        white-space: nowrap;
+        justify-content: space-between !important;
+        margin-left: 25px;
+        margin-bottom: 15px;
+    }
+    .main_product{
+        justify-content: space-around;
+        row-gap: 45px;
+    }
+    .main_product_bar{
+        width: 138px;
+    }
+    .line{
+        display: none;
+    }
+    .main_product_bar > div:nth-child(1),
+    .main_product_bar > div:nth-child(1) > img{
+        height: 121px;
+        width: 154px;
+    }
+    .main_product_rate{
+        width: 70%;
+    }
+    .main_product_rate > div:nth-child(1){
+        height: 12px;
+        width: 29px;
+    }
+    .main_product_rate > div:nth-child(1) > img{
+        height: 12px;
+        width: 12px;
+    }
+    .rate_score{
+        height: 12px;
+        width: 15px;
+        font-size: 9px;
+        line-height: 12px;
+    }
+    .comment{
+        width: 55px;
+        height: 12px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .main_product_title > h2{
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .main_product_price{
+        width: 100px;
+    }
+    .main_product_price > span,
+    .main_product_price > a{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .main_product_price > h2{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .main_product_price > h3{
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .main_product_btn > button{
+        width: 110px;
+        height: 35px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .btn_mob_non{
+        display: none;
+    }
+    .main_bottom{
+        margin-top: 25px;
+    }
+    .news > h2{
+        margin-left: 30px;
+    }
+    .news_line_mob > div{
+        margin: 0 auto;
+    }
+    .footer{
+        height: 100%;
+    }
+    .footer_mob{
+        flex-direction: column !important;
+        margin-left: 30px;
+        row-gap: 35px;
+    }
+    .footer_form_mob{
+        row-gap: 35px;
+    }
+    .footer_form_mob > div:nth-child(1),
+    .footer_form_mob > div:nth-child(2),
+    .footer_form_mob > div:nth-child(3){
+        flex-direction: column !important;
+    }
+    .col_title_edit{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .btn-primary1{
+        width: 104px;
+        font-size: 12px;
+        line-height: 14px;
+        width: 104px;
+    }
+    .only_mob_bar{
+        height: 60px;
+    }
+    .only_mob_bar > div > img{
+        width: 26px;
+        height: 26px;
+    }
+    .only_mob_bar > div > img:nth-child(4){
+        width: 40px;
+        height: 40px;
+    }
+    .copyright{
+        border-top: 1px solid #1D3044;
+        height: 40px;
+        font-size: 12px;
+        line-height: 14px;
+        color: #737E9B;
+    }
+    .bottom_line{
+        width: 100%;
+        height: 1px;
+        background-color: #1D3044;;
     }
 }

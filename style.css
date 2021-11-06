@@ -431,3 +431,6 @@ p{
 .info_bar_mob{
     display: none !important;
 }
+.only_mob_bar{
+    display: none;
+}
