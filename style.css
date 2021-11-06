@@ -422,3 +422,12 @@ p{
 .bottom_bar_mob{
     display: none !important;
 }
+.news_line_mob{
+    display: none !important;
+}
+.mob-more{
+    display: none;
+}
+.info_bar_mob{
+    display: none !important;
+}

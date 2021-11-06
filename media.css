@@ -1,19 +1,97 @@
 @media screen and (max-width:380px){
-    body{
-        width: 100%;
-    }
     .header{
         width: 100%;
     }
+    .main_product{
+        height: 100%;
+    }
 
 
+    .news_bar{
+        flex-wrap: wrap !important;
+        height: 100%;
+    }
+    .test_space,
 
-
-    /*.news_bar{*/
-    /*    flex-wrap: wrap !important;*/
-    /*}*/
-    /*.test_space,*/
-    /*.number_bar{*/
+    .news_line{
+        display: none !important;
+    }
+    .news_line_mob{
+        display: block !important;
+    }
+    .news_text_mob > h2{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        text-decoration-line: underline;
+        color: #005BB9;
+    }
+    .news_text_mob > p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #242424;
+    }
+    .right_bar{
+        display: none !important;
+    }
+    /*.left_bar:nth-child(2),*/
+    /*.left_bar:nth-child(3){*/
     /*    display: none !important;*/
     /*}*/
+    .left_bar{
+        justify-content: space-around !important;
+    }
+    .mob_none{
+        display: none;
+    }
+    .mob_more{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        color: #FFFFFF;
+    }
+    .place_img{
+        display: none;
+    }
+    .info_bar{
+        display: none;
+    }
+    .info_bar_mob{
+        display: flex !important;
+        height: 60px;
+    }
+    .logo_mob > img{
+        height: 46px;
+        width: 44px;
+    }
+    .logo_mob_img_title > img{
+        width: 55px;
+        height: 10px;
+    }
+    .img_high{
+        height: 14px;
+        display: flex;
+    }
+    .phone-num_mob > h2{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 10px;
+        color: #0F2438;
+        margin: 0;
+    }
+    .phone-num_mob > p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 10px;
+        text-decoration-line: underline;
+        color: #0F2438;
+        opacity: 0.7;
+        margin: 0;
+    }
 }
