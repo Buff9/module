@@ -425,12 +425,13 @@ p{
 .news_line_mob{
     display: none !important;
 }
-.mob-more{
-    display: none;
+.mob_more_only{
+    display: none !important;
 }
 .info_bar_mob{
     display: none !important;
 }
 .only_mob_bar{
-    display: none;
+    display: none !important;
 }
+

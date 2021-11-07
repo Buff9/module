@@ -219,13 +219,14 @@
         justify-content: space-between !important;
     }
     .sort_by{
-        width: 440px;
+        width: 420px;
         white-space: nowrap;
         justify-content: space-between !important;
         margin-left: 25px;
         margin-bottom: 15px;
-        overflow: hidden; /*don't work???*/
+        overflow: hidden;
     }
+
     .main_product{
         justify-content: space-around;
         row-gap: 45px;
@@ -329,6 +330,7 @@
     }
     .only_mob_bar{
         height: 60px;
+        display: flex !important;
     }
     .only_mob_bar > div > img{
         width: 26px;
@@ -344,6 +346,7 @@
         font-size: 12px;
         line-height: 14px;
         color: #737E9B;
+        margin-bottom: 40px;
     }
     .bottom_line{
         width: 100%;
@@ -373,5 +376,9 @@
     }
     .bottom_bar_mob1{
         width: 80%;
+
+    }
+    .mob_more_only{
+        display: block !important;
     }
 }
